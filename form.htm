@@ -1,0 +1,110 @@
+﻿<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head runat="server">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">	
+	<meta name="title" content="">
+	<meta name="description" content="">	
+	<meta name="google-site-verification" content="">
+    <meta name="viewport" content="width=device-width">
+	<meta name="author" content="">
+	<meta name="Copyright" content="">
+    <meta name="DC.title" content="">
+	<meta name="DC.subject" content="">
+	<meta name="DC.creator" content="">
+
+    <title id="PageTitle" runat="server"></title>
+
+    <link rel="shortcut icon" href="/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/base.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />    
+    <link href="css/forms.css" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+    <link href="css/ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="css/debug.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderHead" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+    <div class="wrapper">
+	    
+        <div id="form" class="form">        
+            <h2>Form Name</h2>
+            <p>This is a paragraph of lorum ipsum</p>
+
+            <label for="name">Name<span>Add your name</span></label>
+            <input type="text" name="name" id="name" />
+
+            <label for="email">Email<span>Add a valid address</span></label>
+            <input type="text" name="email" id="email" />
+
+            <label for="password">Password<span>Min. size 6 chars</span></label>
+            <input type="password" name="password" id="password" />
+
+            <label for="multiline">Multiline<span>Anything goes</span></label>
+            <textarea name="multiline" id="multiline" rows="3" cols="10"></textarea>
+
+            <label for="sel">Select<span>Only one</span></label>
+            <select id="sel" name="sel">
+                <option value="one">One</option>
+                <option value="two">Two</option>
+                <option value="two">Three</option>
+            </select>
+
+            <label for="group1">Select<span>Only one</span></label>
+            <div class="radioGroup">
+                <span>
+                    <input type="radio" name="group1" value="Male">Male
+                </span>
+                <span>
+                    <input type="radio" name="group1" value="Butter" checked>Female
+                </span>
+            </div>
+
+            <label for="chk">Checkbox<span>Clickety-click</span></label>
+            <input type="checkbox" value="Click" id="chk" />
+            <span class="subcontext">Lorum ipsum <a href="www.google.com" title="www.google.com">met</a> alor</span>
+
+            <button type="submit" class="button">Click</button>
+
+            <div class="spacer"></div>
+
+        </div>
+
+    </div>
+
+<script src="js/modernizr.dev.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>  
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script src="js/site.js"></script>
+
+<asp:ContentPlaceHolder ID="ContentPlaceHolderLast" runat="server"></asp:ContentPlaceHolder>
+
+<!-- 
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-XXXXXX-XX']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+-->
+  
+</body>
+</html>
