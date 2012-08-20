@@ -1,0 +1,48 @@
+div:empty:not([class]), span:empty,
+li:empty, p:empty,
+td:empty, th:empty {
+    padding: 0.5em !important; 
+    background: yellow !important;
+}
+*[style], font, center {
+    outline: 5px solid red !important;
+}
+*[class=""], *[id=""] {
+    outline: 5px dotted red !important;
+}
+img[alt=""] {
+    border: 3px dotted red !important;
+}
+img:not([alt]) {
+    border: 5px solid red !important;
+}
+img[title=""] {
+    outline: 3px dotted fuchsia !important;
+}
+img:not([title]) {
+    outline: 5px solid fuchsia !important;
+}
+table:not([summary]) {
+    outline: 5px solid red !important;
+}
+table[summary=""] {
+    outline: 3px dotted red !important;
+}
+th {
+    border: 2px solid red !important;
+}
+th[scope="col"], th[scope="row"] {
+    border: none !important;
+}
+a[href]:not([title]) {
+    border: 5px solid red !important;
+}
+a[title=""] {
+    outline: 3px dotted red !important;
+}
+a[href="#"] {
+    background: lime !important;
+}
+a[href=""] {
+    background: fuchsia !important;
+}

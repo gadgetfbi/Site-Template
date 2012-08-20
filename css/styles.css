@@ -1,0 +1,48 @@
+﻿.slide 
+{
+    border: 1px solid #dedede;
+    height: 60px;
+    width: 600px;
+    position: absolute;
+    margin: 0px auto;
+    background-color: #fcd7a7;    
+}
+.slide label 
+{
+    margin: 10px 0px 10px 10px;
+    display: block;
+    font-size: 11px;
+    float: left;
+    width: 540px;
+}
+.slide .close 
+{
+    background-image: url('http://localhost:53892/Utils/images/icons/close_icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px 10px 10px;
+    float: right;
+    cursor: pointer;
+}
+
+
+#main {
+    margin: 80px auto 0px auto;
+    width: 940px;
+    border: 1px solid #eee;
+    min-height: 500px;
+}
+
+table#tests {
+    margin: 20px 50px;
+    width: 840px;    
+}
+table#tests td {
+    padding: 5px;
+}
+table#tests td li {
+    float: left;
+    width: 60px;
+}

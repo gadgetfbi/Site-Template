@@ -1,0 +1,181 @@
+select, 
+input, 
+textarea {    
+}
+table {
+    font-size: inherit; 
+    font: 100%;
+}
+a:hover, 
+a:active {    
+}
+small {
+    font-size: 85%;
+}
+strong, 
+th {
+    font-weight: bold;
+}
+td, 
+td img {
+} 
+sub, 
+sup {
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+pre, 
+code, 
+kbd, 
+samp {
+    font-family: monospace, sans-serif;
+}
+input[type=button], 
+input[type=submit], 
+button,
+.button,
+.link {
+    cursor: pointer;
+}
+button, 
+input, 
+select, 
+textarea {
+}
+button,
+.button {
+    width: auto; 
+    overflow: visible;
+}
+.ie7 img {
+    -ms-interpolation-mode: bicubic;
+}
+.ie6 html {
+    filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+/**/
+.clearfix:before, 
+.clearfix:after { 
+    content: "\0020"; 
+    display: block; 
+    height: 0; 
+    overflow: hidden; 
+}
+.clearfix:after { 
+    clear: both; 
+}  
+.clearfix { 
+    zoom: 1; 
+}
+.clearBoth {
+	clear: both;
+	height: 0px !important;
+}
+.clearLeft {
+	clear: left;
+	height: 0px !important;
+}
+.clearRight {
+	clear: right;
+	height: 0px !important;
+}
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float: right;
+}
+.textCenter {
+	text-align: center;
+}
+.hide {
+	display: none;
+}
+.odd {
+    background-color: #dedede;
+}
+/**/
+body {
+    font: 13px Helmet, Freesans, sans-serif;
+}
+body, 
+select, 
+input, 
+textarea {
+    color: #333;
+}
+a {
+    color: #03f;
+    text-decoration: none;
+}
+a:hover {
+    color: #69f;
+    text-decoration: underline;
+}
+::-moz-selection{
+    background: #fcd700; 
+    color: #fff; 
+    text-shadow: none;
+}
+::selection {
+    background: #fcd700; 
+    color: #fff; 
+    text-shadow: none;
+} 
+a:link {
+    -webkit-tap-highlight-color: #fcd700;
+} 
+ins {
+    background-color: #fcd700; 
+    color: #000; 
+    text-decoration: none;
+}
+mark {
+    background-color: #fcd700; 
+    color: #000; 
+    font-style: italic; 
+    font-weight: bold;
+}
+h1 {
+	font-size: 2em;
+	margin: 1em 0;
+	font-weight: bold;
+}
+h2 {
+	font-size: 1.8em;
+	margin: 1em 0;
+	font-weight: bold;
+}
+h3 {
+	font-size: 1.5em;
+	margin: 1em 0;
+	font-weight: bold;
+}
+h4 {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+h5 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+h6, strong {
+	font-weight: bold;
+}
+abbr, acronym {
+	border-bottom: 1px dotted #eeeeee;
+	cursor: help;
+}
+em {
+	font-style: italic;
+}
+
+/* Print styles */
+@media print {
+}
+
+
